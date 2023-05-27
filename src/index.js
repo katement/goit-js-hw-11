@@ -37,7 +37,7 @@ async function onSubmit(event) {
 
   try {
     const { hits, totalHits } = await fetchPictures(searchQuery, currentPage);
-    Notiflix.Notify.info(`Hooray! We found ${totalHits} images.`);
+    Notiflix.Notify.info(`Hooray! We've found ${totalHits} images.`);
     if (hits.length === 0) {
       return Notiflix.Notify.failure(
         'Sorry, there are no images matching your search query. Please try again.'
