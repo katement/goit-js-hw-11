@@ -11,9 +11,7 @@ button {
   background-color: white;
   border-color: yellow;
 }
-.is-hidden {
-  display: none;
-}
+
 .gallery {
   display: flex;
   column-gap: 20px;
@@ -36,4 +34,15 @@ button {
 .load-more {
   display: block;
   margin: 0 auto;
+}
+
+.search-form input[type='text'] {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+.is-hidden {
+  display: none;
 }
